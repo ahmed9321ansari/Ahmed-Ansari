@@ -7,6 +7,5 @@ import matplotlib.pyplot as plt
 #Reading file
 df=pd.read_csv('Position_Salaries.csv')
 
-#
 X = df.iloc[:, 1:2].values
 y = df.iloc[:, 2].values
